@@ -1,0 +1,49 @@
+
+
+body {
+    background-color: #88442e !important;
+}
+
+
+.navbar {
+    background-color: #ffecd1 ;
+    padding: .8rem;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.col-md-6, .col-lg-3 {
+    background-color: #ffecd1;
+    border-radius: 10px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: poppins;
+    font-weight: 500;
+}
+
+div, footer, p {
+    font-family: 'PT Serif';
+    font-weight: 200;
+}
+
+
+footer {
+    background-color: #ffecd1;
+    border-radius: 10px;
+}
+
+.nav-link {
+    font-family: poppins;
+    font-weight: 500;
+}
+
+.display-4 {
+    padding-top: 20px;
+}
+
+.lead {
+    padding-right, padding-left: 20px ;
+}
