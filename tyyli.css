@@ -1,38 +1,49 @@
-
+/* Body */
 
 body {
-    background-color: #88442e !important;
+    background-color:#fff8dc !important;
 }
 
+
+
+/* Nav bar */
 
 .navbar {
-    background-color: #ffecd1 ;
+    background-color: #232528 ;
     padding: .8rem;
 }
+.navbar-brand {
+    background: #fff8dc ;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+/* Carousel */
+
 .carousel-inner img {
     width: 100%;
     height: 100%;
 }
 
+
 .col-md-6, .col-lg-3 {
-    background-color: #ffecd1;
+    background-color:#fff8dc;
     border-radius: 10px;
+    color: #232528 ;
+    margin-bottom: 30px;
 }
+
+
+/* Fontit */
 
 h1, h2, h3, h4, h5 {
-    font-family: poppins;
-    font-weight: 500;
+    font-family: poppins !important;
+    font-weight: 500 !important;
 }
 
-div, footer, p {
-    font-family: 'PT Serif';
-    font-weight: 200;
-}
-
-
-footer {
-    background-color: #ffecd1;
-    border-radius: 10px;
+div, p {
+    font-family: 'PT Serif' !important;
+    font-weight: 400 !important;
 }
 
 .nav-link {
@@ -40,10 +51,92 @@ footer {
     font-weight: 500;
 }
 
+.col-12 {
+    padding: 20px !important;
+}
+
+/* tietoa meistä osia*/
+
+.col-lg-6 {
+    padding: 20px !important;
+}
+
+
 .display-4 {
     padding-top: 20px;
 }
 
-.lead {
-    padding-right, padding-left: 20px ;
+.mask {
+    width: 100%;    
+    height: 100%;
+}
+
+/* Footer */
+
+footer {
+    background: #232528 ;
+    height: auto;
+    width: 100vw;
+    font-family: 'PT Serif';
+    padding-top: 10px;
+    color:	#fff8dc ;
+    position: absolute;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    margin-bottom: 0 !important;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials li {
+    margin: 0 5px;
+}
+ul {
+    padding-inline-start: 0px !important;
+}
+
+.socials a{
+    text-decoration: none;
+    color: 	#fff8dc;
+}
+.socials a:hover i {
+    color: black ;
+    transition: 1s;
+    transform: rotateY(360deg);
+}
+
+
+.footer-bottom{
+    width: 100vw;
+    text-align: center;  
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
 }

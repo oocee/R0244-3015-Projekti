@@ -7,42 +7,48 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Serif">
     <link href="css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="all.css">
     <script src="js/bootstrap.js"></script>
 </head>
 
-<header>
-<nav class="navbar navbar-expand-md navbar-light sticky-top">
-    <div class="container-fluid">
-        <a class="navbar-brand"  href="#"> <img src="img/pyörä.png" alt="pyörä logo" height="50px"></a>
-       
-        <button class="navbar-toggler"
-            data-toggle="collapse" 
-            data-target="#navbarResponsive">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="#navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link active" href="#">Etusivu</a>   
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">   
+         <div class="container-fluid">
+            <a class="navbar-brand"  href="index.html"> <img src="img/pyörä.png" alt="pyörä logo" height="50px"></a>
+         
+           <button class="navbar-toggler" 
+           type="button" 
+           data-bs-toggle="collapse" 
+           data-bs-target="#navbarSupportedContent" >     
+           <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html" style="color: #fff8dc;">Etusivu</a>   
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">jotain</a>   
+                    <a class="nav-link" href="Tuotteet.html" style="color: #fff8dc;">Tuotteet</a>   
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">jotain</a>   
+                    <a class="nav-link" href="tietoa.html" style="color: #fff8dc;">Tietoa</a>   
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">jotain</a>   
+                    <a class="nav-link" href="lomake.html" style="color: #fff8dc;">Lomake</a>   
                 </li>
-
-            </ul>
-        </div>
-    </div>
-</nav>
+                <li class="nav-item">
+                  <a class="nav-link" href="omasivu.html" style="color: #fff8dc;">Omasivu</a>   
+              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="rautalankamalli.html" style="color: #fff8dc;">Rautalankamalli</a>   
+              </li>
+               </ul>
+             </div>
+         </div>
+       </nav>
 </header>
 
-<body>
 
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -78,7 +84,7 @@
     <div class="container-fluid padding"></div>
       <div class="row welcome text-center">
           <div class="col-12">
-              <h1 class="display-4"> tähän tulee jotain</h1>
+              <h1 class="display-4"> Tietoa meistä</h1>
           </div>
           <hr>
           <div class="col-12">
@@ -94,10 +100,10 @@
     <div class="container-fluid padding">
       <div class="row padding">
           <div class="col-lg-6">
-              <h2>Esittely</h2>
-              <p>tänne tkestiä</p>
-              <p>lisää tekstiä</p>
-              <a href="" class="btn btn-primary">lue lisää</a>
+              <h2>Tietoa meistä</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta culpa mollitia quo, eum voluptatum, odio blanditiis in atque adipisci ab commodi non. Ut ratione reprehenderit quam nemo dicta debitis deserunt amet aut sequi minima sint, quasi quae doloremque necessitatibus, quia, corrupti quibusdam nisi a obcaecati.</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti atque excepturi nulla animi dolore, amet saepe vero molestiae fugit consequatur fuga sint optio officiis dignissimos, accusamus aspernatur. Repudiandae deleniti aspernatur distinctio, quis ut veritatis illum error officia nemo quia molestias nihil expedita, facilis ipsam eligendi est. Ex voluptas odit magnam nemo commodi error quas quo!</p>
+              <a href="tietoa.html" class="btn btn-primary">lue lisää</a>
           </div>
           <div class="col-lg-6">
               <img src="img/pyörä1.jpg" class="img-fluid">
@@ -105,12 +111,11 @@
       </div>
 
     </div>
+    
+    <hr>
 
-
-
-
-    <div class="container">
-        <h1>jotain</h1>
+    <div class="container mb-4">
+        <h1 id="otsikko">jotain</h1>
         <div class="row">
         
                 <div class="col-md-6 col-lg-3">
@@ -137,10 +142,23 @@
     </div>
     
     <footer>
-            Ossi Takkinen <br>  
-            ossi.takkinen@gmail.com <br>
+            <div class="footer-content">
+              <h3>Sosiaaliset mediat</h3>
+              <p>Seuraa meitä sosiaalisissa medioissa</p>
+              <ul class="socials">
+                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook" style="font-size: 150%;"></i></a></li>
+                <li><a href="https://twitter.com/?lang=fi"><i class="fab fa-twitter" style="font-size: 150%;"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram" style="font-size: 150%;"></i></a></li>
+                <li><a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in" style="font-size: 150%;"></i></a></li>
+                <li><a href="https://www.youtube.com/"><i class="fab fa-youtube" style="font-size: 150%;"></i></a></li>
+              </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy; 2021</p>
+            </div>
     </footer>
 
+    
 </body>
 
 </html>
